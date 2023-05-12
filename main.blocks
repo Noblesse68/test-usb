@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="R[q0Qm;`MJH_8=:~Cp;b" x="20" y="20"><statement name="HANDLER"><block type="device_show_leds" id="5$/$emFg{ko$pJ@h51jQ"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="#{@YAT8`l]6,(+RMWw]C"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # # . # # 
+        # # . # #
+        `</field></block></next></block></statement></block><block type="device_forever" id="vCH8~.[@1^hM{QxbmJly" x="225" y="20"><statement name="HANDLER"><block type="serial_writeline" id="Q}oC_s9HBkP-:q/+CPa*"><value name="text"><shadow type="text" id="@zNV0v2cc~Vs*?u?QL!N"><field name="TEXT">Température </field></shadow></value><next><block type="serial_writenumber" id="I6,F+x9(#kI5aAlt4OlV"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="It4n:_KlX.U7E.A~B^ov"></block></value><next><block type="serial_writeline" id="cRbN0QF6-68M=n`J(e{j"><value name="text"><shadow type="text" id="^`aX+RsgL(4-6?!y#MHT"><field name="TEXT"></field></shadow></value><next><block type="serial_writeline" id="cPwGqtg%T[jXDF`R`O=-"><value name="text"><shadow type="text" id="9rJF[LeLI;)@J}BbdJ)Y"><field name="TEXT">Champs magnétique</field></shadow></value><next><block type="serial_writenumber" id="wzD}g{;_m0GC*T*N^8l:"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_magnetic_force" id=",^]QjvHr@MwO%K+cl9(F"><field name="NAME">Dimension.X</field></block></value><next><block type="serial_writeline" id="+3f|u0?q@z@!^?*!I$7i"><value name="text"><shadow type="text" id="Jb.b[#8}.l|@6ApLW/)#"><field name="TEXT"></field></shadow></value><next><block type="serial_writeline" id="W%zV,{_2k)pbYeBvv%+s"><value name="text"><shadow type="text" id="sRlvwcZ5ax+^,nN};?|v"><field name="TEXT">Lumiere</field></shadow></value><next><block type="serial_writenumber" id="*yaPpnp*5X=(C:w@9yDG"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="[4w/Vp-I7Z+`)7_/;9j?"></block></value><next><block type="serial_writeline" id="DaZekKCQ.|rq$u1n(AWV"><value name="text"><shadow type="text" id="xybG*iZccd+}Rer!t0Y#"><field name="TEXT"></field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
